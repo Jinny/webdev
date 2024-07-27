@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Box Model and Positioning Demo</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
+    <style>
+        
+        body {
+            background-color: rgb(255, 246, 233);
+        }
+
+        .box-model-demo {
+            border: 1px solid red;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        /* original-box-model */
+        #original-box-model {
+            margin: 10px;
+            padding: 20px;
+            border: 3px red solid
+        }
+        /* According to the text, enter the style for first-model-result */
+        #first-model-result {
+      
+        }
+
+        /* According to the text, enter the style for second-model-result */
+        #second-model-result {
+       
+        }
+
+        /* According to the text, enter the style for third-model-result */
+        #third-model-result {
+
+        }
+
+        /* According to the text, enter the style for fourth-model-result */
+        #fourth-model-result {
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Box Model Demo</h1>
+    </header>
+    <main>
+        <section class="box-model-demo">
+            <h2>Box Model Properties</h2>
+            <div class="box-model-example">
+                <div class="box">Box with margin, padding, and border</div>
+            </div>
+        </section>
+
+        <h2>Original Box Model</h2>
+        <div id="original-box-model">
+            <h4>This box will have margin : 10px, padding : 20px, border : 3px red border</h4>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <b>Model 1, To have the content further from the sides of the box.. </b>
+        <b>You could <span style="background-color: greenyellow;">increase</span> the padding number</b>
+
+        <!-- name the id for the div below -> id = "first-model-result", and provide the style according to the text in the style tag above -->
+        
+        <div id = "first-model-result"> 
+            <h4>This box will have margin : 10px, padding : 50px, border : 3px yellow border</h4>
+        </div>
+        
+        <br>
+        <hr>
+        <br>
+
+        <b>Model 2, To have content closer to the sides of the box..</b>
+        <b>You could <span style="background-color: greenyellow;">decrease</span> the padding number</b>
+
+        
+        <!-- name the id for the div below -> id = "second-model-result", and provide the style according to the text in the style tag above-->
+        
+        <div> 
+            <h4>This box will have margin : 10px, padding : 0px, border : 3px green border</h4>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <b>Model 3, You can also try adjusting the <span style="background-color: greenyellow;">margin</span> to make the box to be more center</b>
+        <b>by increasing the margin</b>
+
+        <!-- name the id for the div below -> id = "third-model-result", and provide the style according to the text in the style tag above -->
+        
+        <div>
+            <h4>Box with margin : 50px, padding : 20px, border : 3px blue border</h4>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <b>Model 4, To decrease the thickness of the border, you may try to adjust the <span style="background-color: greenyellow;"> border </span>attribute </b>
+
+        <!-- name the id for the div below -> id = "fourth-model-result", and provide the style according to the text in the style tag above -->
+
+        <div>
+            <h4>This box will have margin : 20px, padding : 20px, border : 1px purple border</h4>
+        </div>
+
+        <br>
+
+    </main>
+</body>
+
+</html>
